@@ -195,7 +195,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 ▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href="https://t.me/The_Silent_Teams">SG Backup</a>
 
-▫️ Mᴀɪɴ Movie Cʜᴀɴɴᴇʟ : <a href="https://t.me/+TT2fFOnZlsA0MGFl">SG Movies</a></b>""" 
+▫️ Mᴀɪɴ Movie Cʜᴀɴɴᴇʟ : <a href="https://t.me/+r7uhH3P4mP9kN2U9">SG Movies</a></b>""" 
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
