@@ -24,7 +24,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/d1e194ee79eac633fccd5.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/d1e194ee79eac633fccd5.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/d1e194ee79eac633fccd5.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/7db384d955159386d1060.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/4dc9c66df41c6197a3144.jpg")
 VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/5fc64e01b89b9bedc6dfa.jpg")
 VRFY_IMG = environ.get("VRFY_IMG", "https://telegra.ph/file/d1e194ee79eac633fccd5.jpg")
 
