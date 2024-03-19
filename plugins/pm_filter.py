@@ -43,13 +43,17 @@ BUTTONS0 = {}
 BUTTONS1 = {}
 BUTTONS2 = {}
 SPELL_CHECK = {}
-ADMIN_USRNM = "searchingshiv"
+ADMIN_USRNM = "THE_DS_OFFICIAL"
+DS_REACT = ["🔥", "❤️", "😍", "⚡"]
+
 # ENABLE_SHORTLINK = ""
 
 @Client.on_message(filters.group | filters.private & filters.text & filters.incoming)
 async def give_filter(client, message):
+    await message.react(emoji=random.choice(DS_REACT))
     if message.chat.id != SUPPORT_CHAT_ID:
         manual = await manual_filters(client, message)
+        await message.react(emoji=random.choice(DS_REACT))
         if manual == False:
             settings = await get_settings(message.chat.id)
             try:
