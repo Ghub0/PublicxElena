@@ -53,7 +53,6 @@ async def give_filter(client, message):
     await message.react(emoji=random.choice(DS_REACT))
     if message.chat.id != SUPPORT_CHAT_ID:
         manual = await manual_filters(client, message)
-        await message.react(emoji=random.choice(DS_REACT))
         if manual == False:
             settings = await get_settings(message.chat.id)
             try:
