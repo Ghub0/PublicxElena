@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25833520'))
 API_HASH = environ.get('API_HASH', '7d012a6cbfabc2d0436d7a09d8362af7')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6528500602:AAEnM7fXJTqSMvbtbc9B9qADTxOBYAJmyQk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6317806472:AAEtt-TiWwWRAjoQbVDPDjX5rqcj5GoC900")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -29,8 +29,8 @@ VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/5fc64e01b89b9bed
 VRFY_IMG = environ.get("VRFY_IMG", "https://telegra.ph/file/d1e194ee79eac633fccd5.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1562935405 5994274880 5445346322').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001881943777 -1001920546246 -1002046058258 -1001921762417 -1001998476666').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1562935405 7053097886 5994274880 5445346322 6303070462').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001881943777 -1001808780766 -1001975341056 -1001920546246 -1002046058258 -1001921762417 -1001998476666').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -45,14 +45,14 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://test:test@cluster0.febvpxf.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "public")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Error:error@cluster0.nw25n0q.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sgbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'cluster0')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f12bdd3c5c118fdc7ab6dd26bbf360968923f379')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '9dee265f21a31f047f264e363416dd88cce7df41')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
@@ -65,7 +65,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/saurabh_1710/98')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/saurabh_1710/98')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001907327367))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001936967173'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/saurabh_1710')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
